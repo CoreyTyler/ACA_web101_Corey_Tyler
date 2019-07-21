@@ -98,3 +98,50 @@ body {
     letter-spacing: 16px;
     font-style: italic;
   }
+
+  /* Small and up (Landscape Phones) */
+@media (min-width: 576px) {
+  header {
+    background-color: darkgreen;
+  }
+
+main {
+  background-color: darkgreen;
+}
+
+h2 {
+  color: white;
+}
+
+}
+
+/* Medium and up (Tablets) */
+@media (min-width: 768px) {
+  header {
+    background-color: black;
+  }
+
+  main {
+    background-color: black;
+  }
+
+  h1 {
+    border-bottom: 2px solid white;;
+  }
+  
+  h2 {
+    color: white;
+  }
+
+
+
+}
+
+/* Large and up (Desktops) */
+@media (min-width: 992px) {
+  
+
+/* Extra Large and up (Wide Screen Desktops) */
+@media (min-width: 1200px) {
+
+}
