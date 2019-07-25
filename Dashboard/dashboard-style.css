@@ -1,0 +1,72 @@
+.grid {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    grid-template-areas:
+    "greeting greeting"
+
+    "clock       clock"
+
+    "date         temp"
+
+    "to-do  calculator"
+}
+
+.greeting {
+    grid-area: greeting;
+
+    background-color: rgb(255, 51, 0);
+
+    color: white;
+
+    text-align: center;
+}
+
+.clock {
+    grid-area: clock;
+
+    background-color: orangered;
+
+    color: white;
+
+    text-align: center;
+}
+
+.date {
+    grid-area: date;
+
+    background-color: rgb(255, 136, 0);
+
+    color: white;
+}
+
+.temp {
+    grid-area: temp;
+
+    background-color: rgb(255, 136, 0);
+
+    color: white;
+}
+
+.to-do {
+    grid-area: to-do;
+
+    background-color: yellow;
+
+    color: black;
+}
+
+.to-do > h2 {
+    text-decoration: underline;
+}
+
+.calculator-box {
+    grid-area: calculator;
+
+    background-color: yellow;
+
+    color: black;
+
+    text-align: center;
+}
