@@ -1,0 +1,218 @@
+.grid {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    grid-template-areas:
+    "greeting greeting"
+
+    "clock       clock"
+
+    "date         temp"
+
+    "to-do  calculator"
+}
+
+.greeting {
+    grid-area: greeting;
+
+    background-color: rgb(255, 51, 0);
+
+    color: white;
+
+    text-align: center;
+}
+
+.clock {
+    grid-area: clock;
+
+    background-color: orangered;
+
+    color: white;
+
+    text-align: center;
+}
+
+.date {
+    grid-area: date;
+
+    background-color: rgb(255, 136, 0);
+
+    color: white;
+}
+
+.temp {
+    grid-area: temp;
+
+    background-color: rgb(255, 136, 0);
+
+    color: white;
+
+    text-align: center;
+}
+
+.to-do {
+    grid-area: to-do;
+
+    background-color: yellow;
+
+    color: black;
+}
+
+.to-do > h2 {
+    text-decoration: underline;
+}
+
+.calculator-box {
+    grid-area: calculator;
+
+    background-color: yellow;
+
+    color: black;
+
+    text-align: center;
+}
+
+.display {
+    align-content: center;
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+}
+
+.row3 {
+    display: flex;
+    justify-content: center;
+}
+
+.row4 {
+    display: flex;
+    justify-content: center;
+}
+
+.row5 {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 10px;
+    font-size: 26px;
+    background-color: transparent;
+    border-radius: 8px;
+}
+
+/* Extra Small and up (Portrait Phones) */
+
+/* Small and up (Landscape Phones) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium and up (Tablets) */
+@media (min-width: 768px) {
+    .grid {
+        display: grid;
+    
+        grid-template-columns: 1fr 1fr 1fr;
+    
+        grid-template-areas:
+        "to-do    greeting greeting"
+    
+        "to-do   clock         temp"
+    
+        "to-do    date   calculator"
+    }
+
+    .greeting {
+        font-size: 36px;
+    }
+
+    .to-do {
+        background-color: rgb(255, 51, 0);
+    }
+
+    .to-do > h2 {
+        color: white;
+
+        font-size: 30px;
+    }
+
+    .to-do > li {
+        color: white;
+    }
+
+    .clock {
+        background-color: rgb(255, 136, 0);
+
+        font-size: 30px;
+    }
+
+    .date {
+        background-color: yellow;
+
+        color: black;
+
+        font-size: 30px;
+    }
+
+    .temp {
+        font-size: 36px;
+    }
+}
+
+/* Large and up (Desktops) */
+@media (min-width: 992px) {
+    .grid {
+        display: grid;
+    
+        grid-template-columns: 1fr 1fr 10%;
+    
+        grid-template-areas:
+        "greeting   greeting    temp"
+
+        "clock calculator calculator"
+
+        "date  calculator calculator"
+
+        "to-do      to-do      to-do"
+    }
+
+    .temp  { 
+        background-color: rgb(255, 51, 0);
+    }
+
+    .date {
+        background-color: rgb(255, 136, 0);
+
+        color: white;
+    }
+
+    .calculator-box {
+        background-color: rgb(255, 136, 0);
+    }
+
+    button {
+        color: white;
+    }
+
+    .to-do {
+        background-color: yellow;
+    }
+
+    .to-do > h2 {
+        color: black;
+    }
+
+    .to-do > li {
+        color: black;
+    }
+
+}
+
+/* Extra Large and up (Wide Screen Desktops) */
+@media (min-width: 1200px) {
+
+}
