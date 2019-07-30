@@ -1,0 +1,47 @@
+.grid {
+    display: grid;
+
+    grid-template-rows: 450px 324px;
+
+    grid-template-areas: 
+    "logo"
+    "info"
+}
+
+.logo {
+    grid-area: logo;
+
+    background-image: url("./NebulaPic.jpg");
+
+    color: white;
+
+    font-size: 52px;
+
+    text-align: center;
+
+    padding-top: 120px;
+}
+
+.info {
+    grid-area: info;
+
+    display: flex;
+
+    flex-direction: row;
+
+    background-color: grey;
+
+    justify-content: center;
+    
+    padding-top: 60px;
+}
+
+.socialmedia {
+    padding-right: 50px;
+}
+
+.contactus {
+    padding-left: 50px;
+}
+
+
