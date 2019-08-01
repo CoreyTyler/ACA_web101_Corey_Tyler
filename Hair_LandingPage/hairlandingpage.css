@@ -1,0 +1,208 @@
+.grid {
+    display: grid;
+
+    grid-template-areas:
+    "header"
+
+    "contentss"
+
+    "portraits"
+
+    "footer"
+}
+
+.header {
+    grid-area: header;
+
+    text-align: center;
+}
+
+#logo {
+    margin: 30px;
+}
+
+.top > button {
+
+    margin: 20px;
+
+    background-color: transparent;
+
+    border: transparent;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+}
+
+.top > button:hover {
+    color: teal;
+}
+
+.contentss {
+    grid-area: contentss;
+
+    background-image: url("./the-beacon.jpg");
+
+    background-size: 100% 100%;
+
+    background-position: center;
+
+    height: 500px;
+
+    text-align: right;
+
+    padding-right: 300px;
+
+    padding-top: 30px;
+
+    margin-top: 20px;
+}
+
+.contentss > h2 {
+    background-color: white;
+
+    margin-left: 575px;
+
+    text-align: left;
+
+    font-size: 26px;
+
+    padding: 15px;
+}
+
+.contentss> h3 {
+    background-color: black;
+
+    margin-left: 575px;
+
+    text-align: left;
+
+    color: white;
+
+    font-size: 24px;
+
+    font-weight: lighter;
+
+    padding: 15px;
+}
+
+.contentss > h3:nth-child(2) {
+    width: 375px;
+}
+
+.contentss > h3:nth-child(3) {
+    width: 450px;
+}
+
+.contentss > h3:nth-child(4) {
+    width: 340px;
+}
+
+.contentss > button {
+    margin-right: 325px;
+
+    background-color: teal;
+
+    color:white;
+
+    font-size: 18px;
+
+    padding: 20px;
+
+    font-weight: lighter;
+}
+
+.contentss > button:hover {
+    background-color: turquoise;
+}
+
+.portraits {
+    grid-area: portraits;
+
+    display: flex;
+
+    flex-direction: row;
+
+    margin-top: 35px;
+}
+
+.father {
+    text-align: center;
+
+    margin-left: auto;
+}
+
+#father {
+    border-style: solid;
+
+    border-color: black;
+}
+
+.actor {
+    text-align: center;
+
+    margin-left: 20px;
+
+    margin-right: 20px;
+}
+
+#actor {
+    border-style: solid;
+
+    border-color: black;
+}
+
+.nerd {
+    text-align: center;
+
+    margin-right: auto;
+}
+
+#nerd {
+    border-style: solid;
+
+    border-color: black;
+}
+
+.footer {
+    grid-area: footer;
+
+    background-color: rgb(97, 97, 97);
+
+    display: flex;
+
+    flex-direction: row;
+
+    height: 125px;
+}
+
+.footer > p {
+    margin-left: 200px;
+
+    margin-top: auto;
+
+    margin-bottom: auto;
+
+    color: white;
+}
+
+.bottom {
+    margin-left: 350px;
+
+    margin-top: auto;
+
+    margin-bottom: auto;
+}
+
+.bottom > button {
+    background-color: teal;
+
+    color:white;
+
+    font-size: 16px;
+}
+
+.bottom > button:hover {
+    background-color: turquoise;
+}
