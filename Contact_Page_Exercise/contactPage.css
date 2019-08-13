@@ -1,0 +1,205 @@
+.grid {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  grid-template-areas:
+    "title       title"
+    "contact   address"
+    "hours       hours"
+    "comments comments";
+}
+
+.title {
+  grid-area: title;
+
+  border-style: solid;
+
+  border-color: lightseagreen;
+
+  text-align: center;
+}
+
+.contact {
+  grid-area: contact;
+
+  border-style: solid;
+
+  border-color: lightseagreen;
+
+  text-align: center;
+
+  width: 300px;
+
+  margin: 20px;
+
+  margin-left: 50px;
+}
+
+.address {
+  grid-area: address;
+
+  border-style: solid;
+
+  border-color: lightseagreen;
+
+  text-align: center;
+
+  width: 300px;
+
+  margin: 20px;
+
+  margin-left: 300px;
+}
+
+.hours {
+  grid-area: hours;
+
+  border-style: solid;
+
+  border-color: lightseagreen;
+
+  text-align: center;
+
+  width: 500px;
+
+  margin-left: 400px;
+}
+
+table {
+  padding-left: 175px;
+}
+
+.comments {
+  grid-area: comments;
+
+  border-style: solid;
+
+  border-color: lightseagreen;
+
+  text-align: center;
+
+  margin: 20px;
+
+  width: 500px;
+
+  margin-left: 400px;
+}
+
+/* Extra Small and up (Portrait Phones) */
+
+.grid {
+  display: grid;
+
+  grid-template-columns: 1fr;
+
+  grid-template-areas:
+    "title"
+    "contact"
+    "address"
+    "hours"
+    "comments";
+}
+
+/* Small and up (Landscape Phones) */
+@media (min-width: 576px) {
+}
+
+/* Medium and up (Tablets) */
+@media (min-width: 768px) {
+}
+
+/* Large and up (Desktops) */
+@media (min-width: 992px) {
+  .grid {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    grid-template-areas:
+      "title       title"
+      "contact   address"
+      "hours       hours"
+      "comments comments";
+  }
+
+  .title {
+    grid-area: title;
+
+    border-style: solid;
+
+    border-color: lightseagreen;
+
+    text-align: center;
+  }
+
+  .contact {
+    grid-area: contact;
+
+    border-style: solid;
+
+    border-color: lightseagreen;
+
+    text-align: center;
+
+    width: 300px;
+
+    margin: 20px;
+
+    margin-left: 50px;
+  }
+
+  .address {
+    grid-area: address;
+
+    border-style: solid;
+
+    border-color: lightseagreen;
+
+    text-align: center;
+
+    width: 300px;
+
+    margin: 20px;
+
+    margin-left: 300px;
+  }
+
+  .hours {
+    grid-area: hours;
+
+    border-style: solid;
+
+    border-color: lightseagreen;
+
+    text-align: center;
+
+    width: 500px;
+
+    margin-left: 400px;
+  }
+
+  table {
+    padding-left: 175px;
+  }
+
+  .comments {
+    grid-area: comments;
+
+    border-style: solid;
+
+    border-color: lightseagreen;
+
+    text-align: center;
+
+    margin: 20px;
+
+    width: 500px;
+
+    margin-left: 400px;
+  }
+}
+
+/* Extra Large and up (Wide Screen Desktops) */
+@media (min-width: 1200px) {
+}

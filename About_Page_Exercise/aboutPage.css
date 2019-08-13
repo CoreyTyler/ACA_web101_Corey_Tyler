@@ -1,0 +1,249 @@
+body {
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  grid-template-areas:
+    "title    title"
+    "quote    quote"
+    "image  mission"
+    "menu      menu"
+    "address  media";
+
+  background-color: darkred;
+
+  color: white;
+}
+
+.title {
+  grid-area: title;
+
+  text-align: center;
+
+  border-style: dotted;
+
+  border-color: black;
+
+  border-width: 10px;
+
+  padding-bottom: 20px;
+}
+
+.quote {
+  grid-area: quote;
+
+  padding-bottom: 20px;
+}
+
+.image {
+  grid-area: image;
+
+  margin-left: 20px;
+}
+
+.mission {
+  grid-area: mission;
+
+  border-style: solid;
+
+  border-color: black;
+
+  margin-right: 20px;
+
+  padding: 10px;
+
+  text-align: center;
+
+  padding-top: 75px;
+}
+
+.menu {
+  grid-area: menu;
+
+  border-style: dotted;
+
+  border-color: black;
+
+  margin: 10px;
+
+  margin-top: 20px;
+
+  text-align: center;
+}
+
+.address {
+  grid-area: address;
+
+  border-style: solid;
+
+  border-color: black;
+
+  width: 150px;
+
+  margin: 10px;
+
+  margin-left: 300px;
+
+  padding: 10px;
+
+  text-align: center;
+}
+
+.media {
+  grid-area: media;
+
+  border-style: solid;
+
+  border-color: black;
+
+  width: 400px;
+
+  margin: 10px;
+
+  text-align: center;
+}
+
+/* Extra Small and up (Portrait Phones) */
+
+.grid {
+  display: grid;
+
+  grid-template-columns: 1fr;
+
+  grid-template-areas:
+    "title"
+    "quote"
+    "image"
+    "mission"
+    "menu"
+    "address"
+    "media";
+}
+
+/* Small and up (Landscape Phones) */
+@media (min-width: 576px) {
+}
+
+/* Medium and up (Tablets) */
+@media (min-width: 768px) {
+}
+
+/* Large and up (Desktops) */
+@media (min-width: 992px) {
+  body {
+    margin: 0;
+  }
+
+  .grid {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    grid-template-areas:
+      "title    title"
+      "quote    quote"
+      "image  mission"
+      "menu      menu"
+      "address  media";
+
+    background-color: darkred;
+
+    color: white;
+  }
+
+  .title {
+    grid-area: title;
+
+    text-align: center;
+
+    border-style: dotted;
+
+    border-color: black;
+
+    border-width: 10px;
+
+    padding-bottom: 20px;
+  }
+
+  .quote {
+    grid-area: quote;
+
+    padding-bottom: 20px;
+  }
+
+  .image {
+    grid-area: image;
+
+    margin-left: 20px;
+  }
+
+  .mission {
+    grid-area: mission;
+
+    border-style: solid;
+
+    border-color: black;
+
+    margin-right: 20px;
+
+    padding: 10px;
+
+    text-align: center;
+
+    padding-top: 75px;
+  }
+
+  .menu {
+    grid-area: menu;
+
+    border-style: dotted;
+
+    border-color: black;
+
+    margin: 10px;
+
+    margin-top: 20px;
+
+    text-align: center;
+  }
+
+  .address {
+    grid-area: address;
+
+    border-style: solid;
+
+    border-color: black;
+
+    width: 150px;
+
+    margin: 10px;
+
+    margin-left: 300px;
+
+    padding: 10px;
+
+    text-align: center;
+  }
+
+  .media {
+    grid-area: media;
+
+    border-style: solid;
+
+    border-color: black;
+
+    width: 400px;
+
+    margin: 10px;
+
+    text-align: center;
+  }
+}
+
+/* Extra Large and up (Wide Screen Desktops) */
+@media (min-width: 1200px) {
+}
