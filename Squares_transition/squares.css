@@ -1,0 +1,80 @@
+#container {
+  width: 50px;
+  margin: auto;
+}
+
+div {
+  width: 50px;
+  height: 50px;
+  border-style: solid;
+  border-width: 1px;
+  margin: 20px;
+}
+
+#container div:nth-child(even) {
+  transition: all 4s;
+}
+
+#container:hover > div:nth-child(even) {
+  width: 100px;
+  height: 100px;
+  transform: translateX(500px) rotate(360deg);
+}
+
+#container div:nth-child(odd) {
+  transition: all 4s;
+}
+
+#container:hover div:nth-child(odd) {
+  width: 25px;
+  height: 25px;
+  transform: translateX(-500px) rotate(-360deg);
+}
+
+.one {
+  background-color: red;
+}
+
+.two {
+  background-color: blue;
+}
+
+.three {
+  background-color: orange;
+}
+
+.four {
+  background-color: pink;
+}
+
+.five {
+  background-color: green;
+}
+
+.six {
+  background-color: yellow;
+}
+
+.seven {
+  background-color: black;
+}
+
+.eight {
+  background-color: purple;
+}
+
+.nine {
+  background-color: brown;
+}
+
+.ten {
+  background-color: grey;
+}
+
+.eleven {
+  background-color: chartreuse;
+}
+
+.twelve {
+  background-color: indigo;
+}
