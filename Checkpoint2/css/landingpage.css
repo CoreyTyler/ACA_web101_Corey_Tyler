@@ -209,7 +209,7 @@
   height: 300px;
 }
 
-.flex > div > h3 {
+.flex > div > a > h3 {
   background-color: seagreen;
 
   color: white;
@@ -219,9 +219,11 @@
   font-size: 30px;
 
   text-align: center;
+
+  text-decoration: none;
 }
 
-.flex > div > h3:hover {
+.flex > div > a > h3:hover {
   background-color: white;
 
   color: seagreen;
@@ -510,7 +512,7 @@
     height: 300px;
   }
 
-  .flex > div > h3 {
+  .flex > div > a > h3 {
     background-color: seagreen;
 
     color: white;
@@ -520,9 +522,11 @@
     font-size: 30px;
 
     text-align: center;
+
+    text-decoration: none;
   }
 
-  .flex > div > h3:hover {
+  .flex > div > a > h3:hover {
     background-color: white;
 
     color: seagreen;

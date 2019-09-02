@@ -1,0 +1,107 @@
+.zero {
+  margin-bottom: 10px;
+}
+
+.one {
+  display: flex;
+
+  flex-direction: row;
+}
+
+div {
+  text-align: center;
+
+  font-size: 40px;
+
+  padding: auto;
+}
+
+#cell1 {
+  border-bottom: 2px solid black;
+
+  border-right: 2px solid black;
+
+  width: 100px;
+
+  height: 100px;
+}
+
+#cell2 {
+  border-bottom: 2px solid black;
+
+  border-right: 2px solid black;
+
+  width: 100px;
+
+  height: 100px;
+}
+
+#cell3 {
+  border-bottom: 2px solid black;
+
+  width: 100px;
+
+  height: 100px;
+}
+
+.two {
+  display: flex;
+
+  flex-direction: row;
+}
+
+#cell4 {
+  border-bottom: 2px solid black;
+
+  border-right: 2px solid black;
+
+  width: 100px;
+
+  height: 100px;
+}
+
+#cell5 {
+  border-bottom: 2px solid black;
+
+  border-right: 2px solid black;
+
+  width: 100px;
+
+  height: 100px;
+}
+
+#cell6 {
+  border-bottom: 2px solid black;
+
+  width: 100px;
+
+  height: 100px;
+}
+
+.three {
+  display: flex;
+
+  flex-direction: row;
+}
+
+#cell7 {
+  border-right: 2px solid black;
+
+  width: 100px;
+
+  height: 100px;
+}
+
+#cell8 {
+  border-right: 2px solid black;
+
+  width: 100px;
+
+  height: 100px;
+}
+
+#cell9 {
+  width: 100px;
+
+  height: 100px;
+}
