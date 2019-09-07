@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="./checkpoint1.css" />
+    <link rel="stylesheet" href="ToDoApp.css" />
     <title>dashboard</title>
   </head>
   <body>
@@ -23,11 +23,10 @@
       </section>
       <section class="to-do">
         <h2>To Do</h2>
-        <li>Go to the doctor.</li>
-        <li>Walk the dog.</li>
-        <li>Job interview.</li>
-        <li>Dinner date.</li>
-        <li>Basketball with the boys.</li>
+        <ul id="list"></ul>
+        <br />
+        <input type="text" id="textField" />
+        <button type="submit" id="addIt" onclick="addItto">Add</button>
       </section>
       <section class="calculator-box">
         <container class="calculator">
@@ -61,5 +60,7 @@
         </container>
       </section>
     </div>
+    <script src="../MyPortfolio/Script/jquery-3.4.1.min.js"></script>
+    <script src="ToDoApp.js"></script>
   </body>
 </html>
